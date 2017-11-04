@@ -104,8 +104,25 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                 });
 
             break;
+			case 'haillordgoomy':
 
-            // Just add any case commands if you want to..
+                bot.sendMessage({
+
+                    to: channelID,
+
+                    message: 'https://pbs.twimg.com/profile_images/495361901119827969/zqIORBgt.jpeg'
+
+                });
+		bot.sendMessage({
+
+                    to: channelID,
+
+                    message: 'http://goomy.wikia.com/wiki/Goomy_Wiki'
+
+                });
+            break;
+			
+// Just add any case commands if you want to..
 
          }
 
