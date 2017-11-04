@@ -113,6 +113,8 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                     message: 'https://pbs.twimg.com/profile_images/495361901119827969/zqIORBgt.jpeg'
 
                 });
+	 break;
+			case 'haillordgoomy':
 		bot.sendMessage({
 
                     to: channelID,
