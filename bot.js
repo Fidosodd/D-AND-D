@@ -99,7 +99,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 
                     to: channelID,
 
-                    message: '!help,!ping,!<CHARACHTERNAME>,!<PLAYERNAME>'
+                    message: '!help,!ping,!<CHARACHTERNAME>,!<PLAYERNAME>,!haillordgoomy,!goomywiki'
 
                 });
 
@@ -114,7 +114,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 
                 });
 	 break;
-			case 'haillordgoomy':
+			case 'goomywiki':
 		bot.sendMessage({
 
                     to: channelID,
