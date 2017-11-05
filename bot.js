@@ -52,7 +52,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
             case 'ping':
 
                 bot.sendMessage({
-
+https://i.imgur.com/VMtdrgb.jpg
                     to: channelID,
 
                     message: 'Pong!'
@@ -115,6 +115,14 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 
                 });
             break;
+			case 'heresy':
+		bot.sendMessage({
+
+                    to: channelID,
+
+                    message: 'https://i.imgur.com/VMtdrgb.jpg'
+
+                });
 			
 // Just add any case commands if you want to..
 
