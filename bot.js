@@ -123,6 +123,7 @@ https://i.imgur.com/VMtdrgb.jpg
                     message: 'https://i.imgur.com/VMtdrgb.jpg'
 
                 });
+	    break;
 			
 // Just add any case commands if you want to..
 
