@@ -1,4 +1,3 @@
-
 var Discord = require('discord.io');
 
 var logger = require('winston');
@@ -22,6 +21,11 @@ var bot = new Discord.Client({
 
    autorun: true
 
+});
+
+bot.on('disconnect', (msg, code) => {
+    if (code === 0) return console.error(msg);
+    bot.connect();
 });
 
 bot.on('ready', function (evt) {
