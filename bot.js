@@ -99,7 +99,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 
                     to: channelID,
 
-                    message: '!help,!ping,!<CHARACHTERNAME>,!<PLAYERNAME>,!haillordgoomy,!goomywiki,heresy'
+                    message: '!help,!ping,!<CHARACHTERNAME>,!<PLAYERNAME>,!haillordgoomy,!goomywiki,!heresy'
 
                 });
 
