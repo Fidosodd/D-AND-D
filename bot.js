@@ -79,7 +79,8 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 
                 });
 
-            break;
+
+			break;
 			
 			case 'a17':
 
@@ -99,7 +100,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 
                     to: channelID,
 
-                    message: '!help,!ping,!<CHARACHTERNAME>,!<PLAYERNAME>,!haillordgoomy,!goomywiki,!heresy'
+                    message: '!help,!ping,!<CHARACHTERNAME>,!<PLAYERNAME>,!haillordgoomy,!goomywiki,!heresy,!micah,!sophia,!eric'
 
                 });
 
@@ -136,6 +137,39 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                     to: channelID,
 
                     message: 'https://s-media-cache-ak0.pinimg.com/736x/cb/dc/70/cbdc70cf819a13ac49834ee7849e0beb.jpg'
+
+                });
+
+            break;
+			case 'micah':
+
+                bot.sendMessage({
+
+                    to: channelID,
+
+                    message: 'Micah is playing in both Morgan and Shea\'s campaigns. In Morgan\'s he is playing a Rubbish Elf named Sophia Lassalle. Sophia is an outlaw. Fun fact: Sophia dislikes gas masks. In Shea\'s campaign he is playing a human named Eric Rodriguez. Eric is a Soldier subclass Scout. Fun fact: Eric enjoys eating tacos.'
+
+                });
+
+            break;
+			case 'eric':
+
+                bot.sendMessage({
+
+                    to: channelID,
+
+                    message: 'Taken at a young age by pirates, he would eventually be rescued by government at 16. Would then work for government for many years as a sniper. He would be fired after punching a senior officer who he suspected had an affair with his wife. After this he would be hired as an assassin for the company luxuria. After many successful years of service, luxuria would eventually have him imprisoned for life, attempting to tie down all loose ends. After 20 years he would escape and begin his hunt to take down the company who betrayed him.'
+
+                });
+
+            break;
+			case 'sophia':
+
+                bot.sendMessage({
+
+                    to: channelID,
+
+                    message: 'Born on the junk planet of Alfheim, she would be born into the minority, the Rubbish Elves. This race has been outcast by the main race of the planet, Humans. The humans greatly disliked the Rubbish Elves, and their greed for more land and resources would eventually lead to them attempting to all but wipe out the populations of rubbish elves. Fleeing the planet with her little robot drone, her family dead and her mind scared by the force that hurt her, she would seek a new life elsewhere among the stars.'
 
                 });
 
