@@ -91,7 +91,7 @@ https://i.imgur.com/VMtdrgb.jpg
 
                     to: channelID,
 
-                    message: '!help,!ping,!<CHARACHTERNAME>,!<PLAYERNAME>,!haillordgoomy,!goomywiki'
+                    message: '!help,!ping,!<CHARACHTERNAME>,!<PLAYERNAME>,!haillordgoomy,!goomywiki,heresy'
 
                 });
 
