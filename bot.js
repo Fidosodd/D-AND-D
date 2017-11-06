@@ -147,7 +147,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 
                     to: channelID,
 
-                    message: 'Micah is playing in both Morgan and Shea\'s campaigns. In Morgan\'s he is playing a Rubbish Elf named Sophia Lassalle. Sophia is an outlaw. Fun fact: Sophia dislikes gas masks. In Shea\'s campaign he is playing a human named Eric Rodriguez. Eric is a Soldier subclass Scout. Fun fact: Eric enjoys eating tacos.'
+                     message: 'Micah is playing in both Morgan and Shea\'s campaigns. In Morgan\'s he is playing a Rubbish Elf named Sophia Lassalle. Sophia is an outlaw. Fun fact: Sophia dislikes gas masks. In Shea\'s campaign he is playing a human named Eric Rodriguez. Eric is a Soldier subclass Scout. Fun fact: Eric enjoys eating tacos.'
 
                 });
 
@@ -191,7 +191,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 
                     to: channelID,
 
-                    message: 'Sold by his bird parents as a child, Daati Neureyev "worked" as a "child star" in one of the worlds most high class dens. After stopping an assassination and joining a terrorist cell, daati explores the galaxy with his bug friend to shed the blood of both those who "enjoyed his talents" and those who raised him.'
+                    message: 'Sold by his bird parents as a child, Daati Neureyev "worked" as a "child star" in one of the worlds most high class dens. After stopping an assassination and joining a terrorist cell, daati explores the galaxy with his bug friend to shed the blood of both those who "enjoyed his talents" and those who raised him. Daati is flamboyant as fuck and likes to skeet shoot because it reminds him of his\' parents.'
                 });
 
             break;
@@ -201,7 +201,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 
                     to: channelID,
 
-                    message: 'Med-1c is an empathic plasma being who can sense other\'s pain. They were forced to work as a doctor. After everyone they cared about died, they escaped and started trying to help people.'
+                    message: 'Med-1c is an empathic plasma being who can sense other\'s pain. They were forced to work as a doctor. After everyone they cared about died, they escaped and started trying to help people. Med-1c has a grappling hook and would hate gohst rider if he knew about him.'
                 });
 
             break;
