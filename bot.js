@@ -100,7 +100,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 
                     to: channelID,
 
-                    message: '!help,!ping,!<CHARACHTERNAME>,!<PLAYERNAME>,!haillordgoomy,!goomywiki,!heresy,!micah,!sophia,!eric'
+                    message: '!help,!ping,!<CHARACHTERNAME>,!<PLAYERNAME>,!haillordgoomy,!goomywiki,!heresy'
 
                 });
 
@@ -171,6 +171,37 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 
                     message: 'Born on the junk planet of Alfheim, she would be born into the minority, the Rubbish Elves. This race has been outcast by the main race of the planet, Humans. The humans greatly disliked the Rubbish Elves, and their greed for more land and resources would eventually lead to them attempting to all but wipe out the populations of rubbish elves. Fleeing the planet with her little robot drone, her family dead and her mind scared by the force that hurt her, she would seek a new life elsewhere among the stars.'
 
+                });
+
+            break;
+			case 'brendan':
+
+                bot.sendMessage({
+
+                    to: channelID,
+
+                    message: 'Brendan is playing in both Morgan and Shea\'s campaigns. In Morgan\'s he is playing a minature star named Med-1c. Med-1c is a medic. Fun fact: Can weld with their finger. In Shea\'s campaign he is playing an avian named Daati "Daddy" Nureyev . Daati is a Soldier subclass Scout and a child sex star. Fun fact: Doesnt really know how to dance.'
+
+                });
+
+            break;
+			case 'daati':
+
+                bot.sendMessage({
+
+                    to: channelID,
+
+                    message: 'Sold by his bird parents as a child, Daati Neureyev "worked" as a "child star" in one of the worlds most high class dens. After stopping an assassination and joining a terrorist cell, daati explores the galaxy with his bug friend to shed the blood of both those who "enjoyed his talents" and those who raised him.'
+                });
+
+            break;
+			case 'med-1c':
+
+                bot.sendMessage({
+
+                    to: channelID,
+
+                    message: 'Med-1c is an empathic plasma being who can sense other\'s pain. They were forced to work as a doctor before everyone they cared about died. Then they escaped and started trying to help people.'
                 });
 
             break;
