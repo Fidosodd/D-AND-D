@@ -201,7 +201,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 
                     to: channelID,
 
-                    message: 'Med-1c is an empathic plasma being who can sense other\'s pain. They were forced to work as a doctor before everyone they cared about died. Then they escaped and started trying to help people.'
+                    message: 'Med-1c is an empathic plasma being who can sense other\'s pain. They were forced to work as a doctor. After everyone they cared about died, they escaped and started trying to help people.'
                 });
 
             break;
