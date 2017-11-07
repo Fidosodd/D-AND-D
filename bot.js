@@ -54,7 +54,6 @@ bot.on('message', function (user, userID, channelID, message, evt) {
         args = args.splice(1);
 
         switch(cmd) {
-
             // !ping
 
             case 'ping':
@@ -100,7 +99,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 
                     to: channelID,
 
-                    message: '!help,!ping,!<CHARACHTERNAME>,!<PLAYERNAME>,!haillordgoomy,!goomywiki,!heresy'
+                    message: '!help,!ping,!<CHARACTERNAME>,!<PLAYERNAME>,!haillordgoomy,!goomywiki,!heresy. All commands are lowercase.'
 
                 });
 
@@ -201,7 +200,17 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 
                     to: channelID,
 
-                    message: 'Med-1c is an empathic plasma being who can sense other\'s pain. They were forced to work as a doctor. After everyone they cared about died, they escaped and started trying to help people. Med-1c has a grappling hook and would hate gohst rider if he knew about him.'
+                    message: 'Med-1c is an empathic plasma being who can sense other\'s pain. They were forced to work as a doctor. After everyone they cared about died, they escaped and started trying to help people. Med-1c has a grappling hook and would hate gohst rider if they knew about him.'
+                });
+
+            break;
+			case 'playerlist':
+
+                bot.sendMessage({
+
+                    to: channelID,
+
+                    message: 'Morgan, Micah, Brendan. All commands are lowercase.'
                 });
 
             break;
