@@ -71,7 +71,6 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 			case 'morgan':
 
                 bot.sendMessage({
-
                     to: channelID,
 
                     message: 'Morgan is playing in Shea\'s campaign. He is playing a cactus named Specimen A17. A17 is a Soldier subclass Medic. Fun fact: A17 has poor understanding of humor and laughs at seemingly random things.'
@@ -99,7 +98,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 
                     to: channelID,
 
-                    message: '!help,!ping,!<CHARACTERNAME>,!<PLAYERNAME>,!haillordgoomy,!goomywiki,!heresy. All commands are lowercase.'
+                    message: '!help, !ping, !<CHARACTERNAME>, !<PLAYERNAME>, !haillordgoomy, !goomywiki, !heresy, !playerlist. All commands are lowercase.'
 
                 });
 
